@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_website_1689235025746-push-trigger-input-set
+  identifier: Build_website_1689235025746pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: k8smanifests
+  pipeline:
+    identifier: Build_website_1689235025746
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
