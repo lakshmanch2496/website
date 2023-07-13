@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_website_1689235025746-pr-trigger-input-set
+  identifier: Build_website_1689235025746prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: k8smanifests
+  pipeline:
+    identifier: Build_website_1689235025746
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
